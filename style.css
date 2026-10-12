@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f4f4f4;
+}
+
+a{
+  color: #1f6f5c;
+}
+
+header{
+  background-color: #1f6f5c;
+  padding: 15px 20px;
+}
+
+nav{
+  max-width: 900px;
+  margin: auto;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section{
+  padding: 50px 0;
+}
+
+h1{
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+h2{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about img{
+  width: 280px;
+  border-radius: 8px;
+}
+
+.role{
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.skills{
+  list-style: none;
+}
+
+.skills li{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  margin: 0 8px 10px 0;
+  border-radius: 20px;
+}
+
+.projects{
+  display: flex;
+  gap: 25px;
+}
+
+.card{
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.card img{
+  width: 100%;
+  display: block;
+}
+
+.card div{
+  padding: 15px;
+}
+
+.card p{
+  color: #555;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.contact-list li{
+  margin-bottom: 8px;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 14px;
+}
